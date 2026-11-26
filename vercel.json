@@ -1,0 +1,9 @@
+{
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/index-zh.html", "destination": "/zh", "permanent": true }
+  ],
+  "rewrites": [
+    { "source": "/zh", "destination": "/index-zh.html" }
+  ]
+}

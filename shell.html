@@ -385,7 +385,7 @@
     if (e.key === 'f' || e.key === 'F') { if (!document.fullscreenElement) document.documentElement.requestFullscreen().catch(() => {}); else document.exitFullscreen(); return; }
     if (e.key === 'Escape') { if (document.body.getAttribute('data-mode') === 'present') { e.preventDefault(); setMode('overview'); } return; }
     if (e.key === 'p' || e.key === 'P') { window.print(); return; }
-    if (e.key === 'l' || e.key === 'L') { const zh = /index-zh\.html$/.test(location.pathname); location.href = (zh ? 'index.html' : 'index-zh.html') + '#' + (current + 1); return; }
+    if (e.key === 'l' || e.key === 'L') { const zh = /(index-zh\.html|\/zh\/?)$/.test(location.pathname); const web = location.protocol !== 'file:'; location.href = (zh ? (web ? '/' : 'index.html') : (web ? '/zh' : 'index-zh.html')) + '#' + (current + 1); return; }
     if (document.body.getAttribute('data-mode') !== 'present') return;
     switch (e.key) {
       case 'ArrowRight': case ' ': case 'PageDown': e.preventDefault(); next(); break;
