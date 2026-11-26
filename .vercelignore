@@ -1,0 +1,9 @@
+# Source and notes: kept in git, not published on Vercel
+/*.py
+/*.md
+/*.pdf
+/_flags.html
+/shell.html
+/i18n/
+__pycache__/
+.DS_Store
