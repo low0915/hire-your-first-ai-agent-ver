@@ -92,7 +92,6 @@ slide('01-cover', 'Cover', SEC[0], 'dark bare', 'data-sparks="6,1 9,2 8,5 5,4" s
 .wrap { display:grid; grid-template-columns: 1fr 760px; align-items:center; height:100%; }
 .display { font-size: 150px; margin: 26px 0 40px; }
 .lead { max-width: 900px; }
-.meta { margin-top: 56px; font-size: 26px; line-height: 1.6; color: var(--on-dark-2); letter-spacing: .02em; }
 .partner { position:absolute; left:128px; bottom:64px; display:flex; align-items:center; gap:28px; color: var(--on-dark-3); font-size: 24px; }
 .partner img { height: 40px; } .partner img.sql { height: 30px; }
 .hero { position:relative; width:760px; height:760px; display:grid; place-items:center; }
@@ -104,10 +103,9 @@ slide('01-cover', 'Cover', SEC[0], 'dark bare', 'data-sparks="6,1 9,2 8,5 5,4" s
 ''', '''
 <div class="wrap">
   <div>
-    <div class="kicker r" style="--d:.2s;font-size:26px">AI seminar for SQL Account users</div>
+    <div class="kicker r" style="--d:.2s;font-size:26px">SQL seminar for all partners and clients</div>
     <h1 class="display r" style="--d:.35s">Hire Your First <span class="sig" style="--sd:1.3s">AI Agent</span></h1>
     <p class="lead r" style="--d:.6s">What AI needs, what it does, and where your company should start.</p>
-    <p class="meta mono r" style="--d:.8s">18/11/2026 &amp; 19/11/2026<br>Esoft Alor Setar &nbsp;·&nbsp; 10:30 am to 3:30 pm</p>
   </div>
   <div class="hero">
     <svg class="orbit" viewBox="0 0 760 760" fill="none">
